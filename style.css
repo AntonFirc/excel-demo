@@ -13,11 +13,11 @@ body{
 }
 
 section {
-    padding: 32px 0;
+    padding: 50px 16px;
 }
 
 .section-content {
-    max-width: 1250px;
+    max-width: 1200px;
     width: 100%;
     margin: auto;
 }
@@ -46,7 +46,7 @@ section {
 }
 
 .main-content > div.section-content > .table-holder {
-    overflow-y: auto;
+    overflow: scroll;
 }
 
 .table-hint {
@@ -55,4 +55,8 @@ section {
     color: gray;
     margin-top: 16px;
     margin-left: 260px;
+}
+
+.description {
+    color: rgb(78, 78, 78);
 }
