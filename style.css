@@ -60,3 +60,12 @@ section {
 .description {
     color: rgb(78, 78, 78);
 }
+
+.page-footer span {
+    color: rgb(78, 78, 78);
+    display: block;
+}
+
+.credits {
+    font-size: 14px;
+}
